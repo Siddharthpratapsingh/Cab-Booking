@@ -1,0 +1,104 @@
+body{
+background-image: url("Taxi-Booking.jpg");
+ background-size: 1400px 680px;
+background-repeat:no-repeat;
+
+}
+
+
+
+
+	 
+
+	nav ul {
+
+	  text-align: right;
+          color:white;
+
+	  opacity:0.8;
+	  width: 95%;
+
+	  
+
+	}
+
+	 
+
+	nav ul li {
+
+	  display: inline-block;
+          
+
+	}
+
+	 
+
+	nav ul li a {
+
+	  padding: 10px;
+
+	  font-family: "Sans Sarif";
+          
+
+	 
+
+	  color:white;
+
+	  font-size: 20px;
+
+	  text-decoration: none;
+
+	  display: block;
+
+
+	}
+
+	 
+
+	nav ul li a:hover {
+
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+          color:yellow;
+         
+	  
+
+	  
+
+	}
+         .Intro-head{
+
+
+          color:white;
+          font-family: sans;
+          text-align:center;
+          margin-top:110px;
+          font-size:80px;
+          opacity:0.8;
+}
+.Button{
+text-align:center;
+margin-top:85px;
+opacity:0.6;
+
+
+}
+
+button {
+    margin:20px;
+
+top:50%;
+       background-color:Transparent;
+    
+border-radius:5px;
+background-color:Transparent;
+font-family:sans;
+font-size:45px;
+padding: 1px 50px;
+color:white;
+    
+}
+button:hover{
+
+    color: white;
+    border: 2px solid white;
+}

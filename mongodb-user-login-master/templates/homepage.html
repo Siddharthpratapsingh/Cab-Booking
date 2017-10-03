@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cab Booking</title>
+
+<meta name="author" content="Cab Booking"/>
+
+<link rel="stylesheet" href="static/style.css" type="text/css"/>
+</head>
+<body>
+<nav>
+<ul>
+<li>
+<a href="#aboutus">About us</a></li>
+<li>
+<a href="#Contactus">Contact us</a></li>
+<li>
+<a href="test.html">Book</a></li>
+</ul>
+</nav>
+<div class="Intro">
+<div class ="Intro-head">Welcome To Cabbster</div>
+</div>
+
+<div class="Button">
+
+<a href="{{ url_for('login')}}"><button>Login</button></a>
+<div>
+                Don't have an account? <a href="{{ url_for('signup') }}">Sign up here</a>.
+            </div>
+</div>
+
+</body> 
+
+</html>

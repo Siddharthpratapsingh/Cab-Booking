@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="static/signupstyle.css">
+</head>
+<body>
+<div id="main-wrapper">
+<center>
+<h2>Login </h2>
+</center>
+{% block body %}
+<form class="myform" action="{{url_for('login')}}" method="POST">
+<label><b>Username:<b></label><br>
+<input name="username" type="text" class="inputvalues" placeholder="Type your username"/><br>
+<label><b>Password:</b></label><br>
+<input name="password" type="password" class="inputvalues" placeholder="Type your password"/><br>
+<input name="l" type="submit" id="login_btn" value="Login"/><br>
+</form>
+{% endblock %}
+
+</div>
+
+</body>
+</html>
