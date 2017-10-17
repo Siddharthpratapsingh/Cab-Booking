@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Login</title>
-<link rel="stylesheet" href="static/signupstyle.css">
-</head>
-<body>
-<div id="main-wrapper">
-<center>
-<h2>Login </h2>
-</center>
-{% block body %}
-<form class="myform" action="{{url_for('login')}}" method="POST">
-<label><b>Username:<b></label><br>
-<input name="username" type="text" class="inputvalues" placeholder="Type your username"/><br>
-<label><b>Password:</b></label><br>
-<input name="password" type="password" class="inputvalues" placeholder="Type your password"/><br>
-<input name="l" type="submit" id="login_btn" value="Login"/><br>
-</form>
-{% endblock %}
 
-</div>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="static/signupstyle.css">
+    <link rel="stylesheet" href="./../static/bootstrap.css">
+
+</head>
+
+<body>
+    <div id="main-wrapper" style="">
+        <div style="background-color: #7e8000;padding-bottom: 20px; border-radius: 10px">
+            <center>
+                <h2>Login </h2>
+            </center>
+            {% block body %}
+            <form class="myform" action="{{url_for('login')}}" method="POST">
+                <label>
+                    <b>Username:
+                        <b>
+                </label>
+                <br>
+                <input name="username" type="text" class="inputvalues" placeholder="Type your username" />
+                <br>
+                <label>
+                    <b>Password:</b>
+                </label>
+                <br>
+                <input name="password" type="password" class="inputvalues" placeholder="Type your password" />
+                <br>
+                <input name="l" type="submit" id="login_btn" value="Login" />
+                <br>
+            </form>
+            {% endblock %}
+
+        </div>
+    </div>
 
 </body>
+
 </html>

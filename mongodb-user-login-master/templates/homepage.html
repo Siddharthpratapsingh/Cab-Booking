@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Cab Booking</title>
+    <title>Cab Booking</title>
+    <link rel="stylesheet" href="./../static/bootstrap.css">
+    <meta name="author" content="Cab Booking" />
 
-<meta name="author" content="Cab Booking"/>
-
-<link rel="stylesheet" href="static/style.css" type="text/css"/>
+    <link rel="stylesheet" href="./../static/style.css">
+    <link rel="stylesheet" href="./../static/new_css.css">
 </head>
+
 <body>
-<nav>
-<ul>
-<li>
-<a href="#aboutus">About us</a></li>
-<li>
-<a href="#Contactus">Contact us</a></li>
-<li>
-<a href="test.html">Book</a></li>
-</ul>
-</nav>
-<div class="Intro">
-<div class ="Intro-head">Welcome To Cabbster</div>
-</div>
+    <nav>
+        <ul>
+            <li style="background-color: green">
+                <a href="#aboutus">About us</a>
+            </li>
+            <li style="background-color: green">
+                <a href="#Contactus">Contact us</a>
+            </li>
+            <li style="background-color: green">
+                <a href="test.html">Book </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- <div class="Intro">
+        <div class="Intro-head">Welcome To Cabbster</div>
+    </div>
 
-<div class="Button">
+    <div class="Button">
 
-<a href="{{ url_for('login')}}"><button>Login</button></a>
-<div>
-                Don't have an account? <a href="{{ url_for('signup') }}">Sign up here</a>.
+        <a href="{{ url_for('login')}}">
+            <button>Login</button>
+        </a>
+        <div>
+            Don't have an account?
+            <a href="{{ url_for('signup') }}">Sign up here</a>.
+        </div>
+    </div> -->
+    <div class="row ">
+        <div class="col-lg-6 col-lg-offset-3" style="background-color: #fff6;margin-top: 130px; padding-bottom: 50px;border-radius: 15px">
+
+            <div>
+                <p class="intro" style="margin-left:30px "> Welcome To Cabbster</p>
             </div>
-</div>
+            <div class="col-lg-offset-3">
 
-</body> 
+                <a href="{{ url_for('login')}}">
+                    <button>Login</button>
+                </a>
+                <div style="color: white">
+                    Don't have an account?
+                    <a style="color: red;font-size: 15px" href="{{ url_for('signup') }}">Sign up here</a>.
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
 
 </html>

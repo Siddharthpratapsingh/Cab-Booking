@@ -1,13 +1,13 @@
-body{
-background-image: url("Taxi.jpg");
- background-size: 1400px 680px;
-background-repeat:no-repeat;
+body {
+    background-image: url("Taxi.jpg");
+    background-size: 1400px 680px;
+    background-repeat: no-repeat;
 }
-{
+
+
+/* {
     box-sizing: border-box;
-}
-
-
+} */
 
 .columns {
     float: left;
@@ -25,7 +25,7 @@ background-repeat:no-repeat;
 }
 
 .price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
 }
 
 .price .header {
@@ -55,13 +55,13 @@ background-repeat:no-repeat;
     font-size: 18px;
 }
 
-
-
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-opacity:0.6;
+    opacity: 0.6;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -83,12 +83,12 @@ input[type=submit]:hover {
 }
 
 .container {
-    border-radius: 5px;
-    border: 2px solid white;
-    background-color: white;
-    opacity:0.9;
+    opacity: 0.9;
     padding: 30px;
 }
 
-
-
+.divster {
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: white;
+}
